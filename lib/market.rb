@@ -8,11 +8,11 @@ class Market​
   end
 
   def generate_lemon_price
-    Math.rand(25..50)
+    Random.new.rand(25..50)
   end
 
   def generate_sugar_price
-    Math.rand(2..5)
+    Random.new.rand(2..5)
   end
 
   def generate_prices

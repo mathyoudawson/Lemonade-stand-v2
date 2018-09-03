@@ -4,12 +4,16 @@ require 'require_all'
 require_all "lib"
 
 class Day
+  attr_accessor :view, :inventory
+
   def initialize
     @game_condition = "active"
+    @view = DayView.new
+    @inventory = Inventory.new
   end
 
   def simulate_day
-    buy_ingredients
+    inventory.buy_ingredients
     make_lemonade
     generate_temperature
     generate_sales
