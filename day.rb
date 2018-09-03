@@ -1,9 +1,11 @@
 # simulates the day
+require 'require_all'
+
+require_all "lib"
 
 class Day
   def initialize
     @game_condition = "active"
-
   end
 
   def simulate_day
