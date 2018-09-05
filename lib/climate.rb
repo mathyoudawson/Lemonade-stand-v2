@@ -1,5 +1,7 @@
 # works out how hot the day is based on the last one
 # require_relative "climate_view.rb"
+require 'byebug'
+
 
 class Climate​
   attr_accessor :temperature, :random_generator, :view
@@ -12,7 +14,6 @@ class Climate​
 
   def initial_temperature
     @temperature = rand(35)
-    puts temperature
   end
 
   def random_multiplier
@@ -20,7 +21,8 @@ class Climate​
   end
 
   def generate_temperature
-    @temperature = temperature * random_multiplier
+    new_temperature = temperature.to_f * random_multiplier
+    @temperature = new_temperature.to_i
     view.forecast(temperature)
   end
 end

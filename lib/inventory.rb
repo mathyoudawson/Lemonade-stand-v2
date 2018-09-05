@@ -1,5 +1,4 @@
 # holds lemon + sugar inventory + $ balance + lemonade made
-require_relative "market.rb"
 
 class Inventory
   attr_accessor :sugar, :lemons, :market, :view, :cups
@@ -11,6 +10,18 @@ class Inventory
     @cups = 0
     @market = generate_prices
     @view = InventoryView.new
+  end
+
+  def process_sales
+
+  end
+
+  def get_lemonade_price
+    market.lemonade_price
+  end
+
+  def generate_sales
+    market.generate_sales
   end
 
   def generate_prices
