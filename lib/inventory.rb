@@ -8,7 +8,6 @@ class Inventory
     @sugar = 0
     @lemons = 0
     @cups = 0
-    @market = generate_prices
     @view = InventoryView.new
   end
 

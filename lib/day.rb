@@ -4,12 +4,12 @@ require 'require_all'
 require_all "lib"
 
 class Day
-  attr_accessor :view, :inventory, :climate, :population_counter
+  attr_accessor :view, :climate, :population_counter, :inventory
 
-  def initialize
-    @game_condition = "active"
+  def initialize(inventory)
     @view = DayView.new
-    @inventory = Inventory.new
+    @inventory = inventory
+    inventory.generate_prices
     @climate = Climate​.new
     @population_counter = PopulationCounter.new
   end
@@ -26,16 +26,14 @@ class Day
     inventory.make_lemonade
     climate.generate_temperature
     population_counter.generate_population(climate.temperature)
+  end
+
+  def display_results
+
+  end
+
+  def finalize_day
     generate_sales
     display_results
   end
-
-  def active_game
-    while @game_condition == "active" do
-      simulate_day
-    end
-  end
 end
-
-lemonade_stand_instance = Day.new
-lemonade_stand_instance.active_game
