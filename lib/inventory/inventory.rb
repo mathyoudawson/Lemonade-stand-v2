@@ -11,21 +11,9 @@ class Inventory
     @view = InventoryView.new
   end
 
-  def process_sales
+  def process_sales(sales)
 
   end
-
-  # def get_lemonade_price
-  #   market.lemonade_price
-  # end
-  #
-  # def generate_sales
-  #   market.generate_sales
-  # end
-  #
-  # def generate_prices
-  #   @market = Market​.new
-  # end
 
   def make_lemonade
     maximum_quantity = [sugar, lemons].min

@@ -18,8 +18,7 @@ class Day
     price = market.lemonade_price
     puts "price is #{price}"
     population = population_counter.daily_population
-    sales = population * price
-    inventory.process_sales(sales)
+    population * price
   end
 
   def simulate_day
@@ -34,7 +33,8 @@ class Day
   end
 
   def finalize_day
-    generate_sales
+    revenue = generate_sales
     display_results
+    revenue
   end
 end

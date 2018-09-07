@@ -19,12 +19,17 @@ class Lifecycle
     Day.new(inventory)
   end
 
+  def process_revenue(revenue)
+    @money += revenue
+  end
+
   def active_game
     day_counter = 0
     while @game_condition == "active" do
       new_day = start_new_day(day_counter)
       new_day.simulate_day
-      new_day.finalize_day
+      revnue = new_day.finalize_day
+      process_revenue(revnue)
       day_counter =+ 1
     end
     view.end_game
