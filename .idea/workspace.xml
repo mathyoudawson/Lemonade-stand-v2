@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1798d9bb-9232-482f-9c28-a95bbf1f7031" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lifecycle_view.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/day.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/day.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/day.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/inventory.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/inventory.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycle.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/market.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/market.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/market_view.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/market_view.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lifecycle.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lifecycle.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lifecycle.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="212">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
       <file leaf-file-name="day.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/day.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -67,8 +67,8 @@
       <file leaf-file-name="inventory.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/inventory.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-123">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -85,8 +85,8 @@
       <file leaf-file-name="population_counter.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/population_counter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="189">
+              <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -112,17 +112,17 @@
       <file leaf-file-name="market.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/market.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="market_view.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="market_view.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/market_view.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="63">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -141,6 +141,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>LifecycleView</find>
+      <find>market</find>
+      <find>generate_sales</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,14 +161,14 @@
         <option value="$PROJECT_DIR$/lib/inventory_view.rb" />
         <option value="$PROJECT_DIR$/lib/climate_view.rb" />
         <option value="$PROJECT_DIR$/lib/climate.rb" />
-        <option value="$PROJECT_DIR$/lib/market_view.rb" />
-        <option value="$PROJECT_DIR$/lib/population_counter.rb" />
-        <option value="$PROJECT_DIR$/lib/market.rb" />
         <option value="$PROJECT_DIR$/day.rb" />
         <option value="$PROJECT_DIR$/lifecycle_view.rb" />
+        <option value="$PROJECT_DIR$/lifecycle.rb" />
+        <option value="$PROJECT_DIR$/lib/population_counter.rb" />
         <option value="$PROJECT_DIR$/lib/inventory.rb" />
         <option value="$PROJECT_DIR$/lib/day.rb" />
-        <option value="$PROJECT_DIR$/lifecycle.rb" />
+        <option value="$PROJECT_DIR$/lib/market.rb" />
+        <option value="$PROJECT_DIR$/lib/market_view.rb" />
       </list>
     </option>
   </component>
@@ -245,12 +247,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535704924987</updated>
-      <workItem from="1535704928640" duration="12439000" />
+      <workItem from="1535704928640" duration="14670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12439000" />
+    <option name="totallyTimeSpent" value="14670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="6" />
@@ -315,38 +317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/climate.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/market_view.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/population_counter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/day_view.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -357,24 +331,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/market.rb">
+    <entry file="file://$PROJECT_DIR$/lifecycle_view.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state>
+          <caret column="19" selection-start-column="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/inventory.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/day.rb">
+    <entry file="file://$PROJECT_DIR$/lib/day_view.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -385,17 +359,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_view.rb">
+    <entry file="file://$PROJECT_DIR$/lib/population_counter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="6" selection-end-column="19" />
+        <state relative-caret-position="189">
+          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lifecycle.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="212">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/inventory.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/day.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/market.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/market_view.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>

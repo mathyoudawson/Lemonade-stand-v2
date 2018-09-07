@@ -4,18 +4,19 @@ require 'require_all'
 require_all "lib"
 
 class Day
-  attr_accessor :view, :climate, :population_counter, :inventory
+  attr_accessor :view, :climate, :population_counter, :inventory, :market
 
   def initialize(inventory)
     @view = DayView.new
     @inventory = inventory
-    inventory.generate_prices
+    @market = Market​.new
     @climate = Climate​.new
     @population_counter = PopulationCounter.new
   end
 
   def generate_sales
-    price = inventory.get_lemonade_price
+    price = market.lemonade_price
+    puts "price is #{price}"
     population = population_counter.daily_population
     sales = population * price
     inventory.process_sales(sales)

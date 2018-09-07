@@ -18,7 +18,7 @@ class Market​
   end
 
   def set_lemonade_price
-    @lemon_price = view.set_lemonade_price
+    @lemonade_price = view.set_lemonade_price
   end
 
   def generate_prices
