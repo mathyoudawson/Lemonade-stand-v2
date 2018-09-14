@@ -28,8 +28,8 @@ class Lifecycle
     while @game_condition == "active" do
       new_day = start_new_day(day_counter)
       new_day.simulate_day
-      revnue = new_day.finalize_day
-      process_revenue(revnue)
+      revenue = new_day.finalize_day
+      process_revenue(revenue)
       day_counter =+ 1
     end
     view.end_game

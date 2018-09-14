@@ -4,12 +4,14 @@ require 'byebug'
 
 
 class Climate​
-  attr_accessor :temperature, :random_generator, :view
+  attr_accessor :temperature, :random_generator # , :view
+
+  VIEW = ClimateView.new
 
   def initialize
     initial_temperature
     @random_generator = Random.new
-    @view = ClimateView.new
+    #@view = ClimateView.new
   end
 
   def initial_temperature
@@ -23,6 +25,6 @@ class Climate​
   def generate_temperature
     new_temperature = temperature.to_f * random_multiplier
     @temperature = new_temperature.to_i
-    view.forecast(temperature)
+    VIEW.forecast(temperature)
   end
 end
